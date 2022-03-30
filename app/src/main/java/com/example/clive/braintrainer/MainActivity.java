@@ -45,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
         put(8, new ArrayList<String>(){{ add("What is the current price of a 5yr bond with a $1,000 face value, a 7% annual coupon and an 8.5% YTM?"); add("$880.00"); add("$1,020.20"); add("$900.67"); add("$940.89"); add("4");}});
         put(9, new ArrayList<String>(){{ add("What is the current price of a 4yr bond with a $1,000 face value, a 4% annual coupon and an 5% YTM?"); add("$905.00"); add("$874.34"); add("$964.54"); add("$679.80"); add("3");}});
         put(10, new ArrayList<String>(){{ add("What is the current price of a 4yr bond with a $1,000 face value, a 4% annual coupon and an 3% YTM?"); add("$998.12"); add("$780.12"); add("$970.23"); add("$1,037.17"); add("4");}});
+        put(11, new ArrayList<String>(){{ add("Which of the following is a bond that the issuer can redeem before it reaches maturity?"); add("putable bond"); add("callable bond"); add("convertible bond"); add("zero-coupon bond"); add("2");}});
+        put(12, new ArrayList<String>(){{ add("The risk free-rate is calculated by subtracting what from a matching-duration treasury bond?"); add("Yield-to-maturity"); add("Gilt rate"); add("Inflation rate"); add("Sovereign rate"); add("3");}});
+        put(13, new ArrayList<String>(){{ add("To calculate the price of a bond you require the face value, the term length, the yield-to-maturity and what else?"); add("Coupon rate"); add("Risk-free rate"); add("Treasury rate"); add("LIBOR rate"); add("1");}});
+        put(14, new ArrayList<String>(){{ add("Compared with passive fund management, active management involves what?"); add("Benchmarking"); add("Indexing"); add("Lower fees"); add("Stock Selection"); add("4");}});
+        put(15, new ArrayList<String>(){{ add("What term describes the excess return on an investment relative to the benchmark return?"); add("Alpha"); add("Beta"); add("Gamma"); add("Delta"); add("1");}});
+        put(16, new ArrayList<String>(){{ add("What term measures the volatility of a security compared the market as a whole?"); add("Alpha"); add("Beta"); add("Gamma"); add("Delta"); add("2");}});
+        put(17, new ArrayList<String>(){{ add("What profitability ratio is calculated by dividing operating profit by sales?"); add("Net margin"); add("Pre-tax margin"); add("Operating margin"); add("Gross margin"); add("3");}});
+        put(18, new ArrayList<String>(){{ add("What term describes the change in price of a derivative given a $1 change its underlying security?"); add("Alpha"); add("Beta"); add("Gamma"); add("Delta"); add("1"); add("4");}});
+        put(19, new ArrayList<String>(){{ add("What ratio is calculated by summing a company's cash, marketable securities, and receivables and dividing by their current liabilities?"); add("Quick Ratio"); add("Current Ratio"); add("Cash Ratio"); add("Debt Ratio"); add("1");}});
+        put(20, new ArrayList<String>(){{ add("What metric is calculated by dividing the company's net income by the dividend paid to shareholders"); add("Fixed charge coverage"); add("Leverage ratio"); add("Interest Ratio"); add("Coverage ratio"); add("4");}});
 //        put(, new ArrayList<String>(){{ add(""); add(""); add(""); add(""); add(""); add("2");}});
 
     }};
@@ -70,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         gameRelativeLayout = (RelativeLayout)findViewById(R.id.gameRelativeLayout);
         questionTextView = (TextView)findViewById(R.id.questionTextView);
 
-        for(int i = 1; i <= 10; i++) {
+        for(int i = 1; i <= questions.size(); i++) {
             order.add(i);
         }
         Collections.shuffle(order);
