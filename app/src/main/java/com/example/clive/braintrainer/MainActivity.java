@@ -35,9 +35,14 @@ public class MainActivity extends AppCompatActivity {
 
 //    Dictionary of the questions and answers. Index of the correct answer given in final Arraylist element
     HashMap<Integer, ArrayList<String>> questions = new HashMap<Integer, ArrayList<String>> () {{
-        put(1, new ArrayList<String>(){{ add("What is the name of the ratio defined as the return of the portfolio minus the risk-free rate all divided by the standard deviation of the portfolio’s excess return?"); add("Sharpe Ratio"); add("Sortino Ratio"); add("Treynor Ratio"); add("Information Ratio"); add("1");}});
-        put(2, new ArrayList<String>(){{ add("What is the name of the ratio defined as the return of the portfolio minus the risk-free rate all divided by the standard deviation of the downside risk?"); add("Information Ratio"); add("Sharpe Ratio"); add("Sortino Ratio"); add("Treynor Ratio"); add("3");}});
-        put(3, new ArrayList<String>(){{ add("What ratio is given by the Earnings Per Share divided by the Share Price"); add("P/E"); add("EV/EBITDA"); add("P/B"); add("ROE"); add("1");}});
+        put(1, new ArrayList<String>(){{ add("Harus menyesuaikan keadaan"); add("adapt"); add("Adjust "); add("Basically"); add("Anyway "); add("2");}});
+        put(2, new ArrayList<String>(){{ add("Eh tadi sampai dimana sih obrolan kita?"); add("Anyways"); add("by the way"); add("Basically"); add("Anyway "); add("1");}});
+        put(3, new ArrayList<String>(){{ add("Pertemanan/Sahabat"); add("Circle"); add("Friends"); add("Bestie"); add("Clingy"); add("1");}});
+        put(4, new ArrayList<String>(){{ add("Pendapat yang sejujurnya"); add("Honestly"); add("Jujurly"); add("Wichiz"); add("Clingy"); add("1");}});
+        put(5, new ArrayList<String>(){{ add("Pertemanan/Sahabat"); add("Circle"); add("Friends"); add("Bestie"); add("Clingy"); add("1");}});
+        put(6, new ArrayList<String>(){{ add("Berbicara yang dihalus-haluskan"); add("Circle"); add("Sugar Coating"); add("Bestie"); add("Clingy"); add("2");}});
+
+        /*
         put(4, new ArrayList<String>(){{ add("What % of observations lie two standard deviations above the mean"); add("2.5%"); add("5%"); add("7.5%"); add("25%"); add("1");}});
         put(5, new ArrayList<String>(){{ add("A Zero-coupon bond which pays $25,000 in 10 years has an interest rate of 6%. What is the price of that bond today?"); add("$13,959.87"); add("$14,235.65"); add("$11,278.00"); add("$16,000"); add("1");}});
         put(6, new ArrayList<String>(){{ add("A group of 5 companies have profit margins of 55%, 25%, 10%, 15%, and 30%. What is the range of profit margins?"); add("25%"); add("45%"); add("15%"); add("12%"); add("2");}});
@@ -55,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         put(18, new ArrayList<String>(){{ add("What term describes the change in price of a derivative given a $1 change its underlying security?"); add("Alpha"); add("Beta"); add("Gamma"); add("Delta"); add("1"); add("4");}});
         put(19, new ArrayList<String>(){{ add("What ratio is calculated by summing a company's cash, marketable securities, and receivables and dividing by their current liabilities?"); add("Quick Ratio"); add("Current Ratio"); add("Cash Ratio"); add("Debt Ratio"); add("1");}});
         put(20, new ArrayList<String>(){{ add("What metric is calculated by dividing the company's net income by the dividend paid to shareholders"); add("Fixed charge coverage"); add("Leverage ratio"); add("Interest Ratio"); add("Coverage ratio"); add("4");}});
+*/
 //        put(, new ArrayList<String>(){{ add(""); add(""); add(""); add(""); add(""); add("2");}});
 
     }};
